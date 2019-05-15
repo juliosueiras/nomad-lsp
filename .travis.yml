@@ -1,0 +1,11 @@
+language: nix
+
+matrix:
+  include:
+    - os: linux
+      env: TRAVIS_OS=linux
+    - os: osx
+      env: TRAVIS_OS=osx
+
+after_script:
+  - file ./result/bin/terraform-lsp
