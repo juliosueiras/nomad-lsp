@@ -5,7 +5,7 @@ buildGoModule rec {
   version = "0.0.1";
   src = ./.;
 
-  modSha256 = "0ck84vwznlc1lsfpzcr7qyrk1nx524syc6cci8xkcs5ddqf5s22g"; 
+  modSha256 = "0gfbl5lw0x3n6lw6i3cjjikyxgfxkjgqf9f6zliglxlnsbvmf3jw"; 
 
   goPackagePath = "github.com/juliosueiras/nomad-lsp";
   subPackages = [ "." ];
