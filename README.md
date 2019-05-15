@@ -1,5 +1,12 @@
 # Nomad LSP
 
+[![Gitter](https://badges.gitter.im/nomad-lsp/community.svg)](https://gitter.im/nomad-lsp/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+![nomad version](https://img.shields.io/badge/nomad-0.12.0-blue.svg)
+[![Nix Linux Build](https://badges.herokuapp.com/travis/juliosueiras/nomad-lsp?env=TRAVIS_OS=linux&label=Nix%20Linux%20Build)](https://travis-ci.com/juliosueiras/nomad-lsp)
+[![Nix OSX Build](https://badges.herokuapp.com/travis/juliosueiras/nomad-lsp?env=TRAVIS_OS=osx&label=Nix%20OSX%20Build)](https://travis-ci.com/juliosueiras/nomad-lsp)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp?ref=badge_shield)
+
+
 This is LSP(Language Server Protocol) for Nomad
 
 [![asciicast](https://asciinema.org/a/246266.svg)](https://asciinema.org/a/246266)
