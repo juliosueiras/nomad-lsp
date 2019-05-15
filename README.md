@@ -2,7 +2,7 @@
 
 [![Gitter](https://badges.gitter.im/nomad-lsp/community.svg)](https://gitter.im/nomad-lsp/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ![nomad version](https://img.shields.io/badge/nomad-0.9.1-blue.svg)
-[![Nix Build](https://img.shields.io/travis/com/juliosueiras/terraform-lsp.svg?style=for-the-badge&logo=travis&label=Nix%20Build)](https://travis-ci.com/juliosueiras/terraform-lsp)
+[![Nix Build](https://img.shields.io/travis/com/juliosueiras/nomad-lsp.svg?logo=travis&label=Nix%20Build)](https://travis-ci.com/juliosueiras/nomad-lsp)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp?ref=badge_shield)
 
 
