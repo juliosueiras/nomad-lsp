@@ -19,3 +19,10 @@ This is LSP(Language Server Protocol) for Nomad
 ## To-do
 
 - Add the full schema from nomad jobspec
+
+## Credits
+- LSP structure using [Sourcegraph's go-lsp](https://github.com/sourcegraph/go-lsp)
+- JSONRPC2 using [JRPC2](https://bitbucket.org/creachadair/jrpc2)
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuliosueiras%2Fterraform-lsp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuliosueiras%2Fterraform-lsp?ref=badge_large)
