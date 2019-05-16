@@ -218,9 +218,7 @@ var VaultSpec = &hcldec.BlockSpec{
 
 var DeviceSpec = &hcldec.BlockMapSpec{
 	LabelNames: []string{
-		"<device_type>",
-		"<vendor>/<device_type>",
-		"<vendor>/<device_type>/<model>",
+		"device",
 	},
 	TypeName: "device",
 	Nested: &hcldec.ObjectSpec{
