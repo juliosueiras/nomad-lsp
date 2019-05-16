@@ -26,7 +26,7 @@ var DiagsFiles = make(map[string][]lsp.Diagnostic)
 
 func Initialize(ctx context.Context, vs lsp.InitializeParams) (lsp.InitializeResult, error) {
 
-	file, err := ioutil.TempFile("", "tf-lsp-")
+	file, err := ioutil.TempFile("", "nomad-lsp-")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -60,10 +60,14 @@ func TextDocumentComplete(ctx context.Context, vs lsp.CompletionParams) (lsp.Com
 	var result []lsp.CompletionItem
 	fileText, _ := ioutil.ReadFile(tempFile.Name())
 
+	helper.DumpLog(tempFile.Name())
 	pos := hcl.Pos{
-		Byte: helper.FindOffset(string(fileText), vs.Position.Line, vs.Position.Character),
+		Line:   vs.Position.Line + 1,
+		Column: vs.Position.Character + 1,
+		Byte:   helper.FindOffset(string(fileText), vs.Position.Line+1, vs.Position.Character+1),
 	}
 
+	helper.DumpLog(pos)
 	hclBody, _ := nomadstructs.LoadHCLFile(tempFile.Name())
 	blocks := hclBody.(*hclsyntax.Body).BlocksAtPos(pos)
 
