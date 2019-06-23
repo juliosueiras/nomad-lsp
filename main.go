@@ -7,15 +7,14 @@ import (
 	"os"
 	"strings"
 
-	"bitbucket.org/creachadair/jrpc2"
-	"bitbucket.org/creachadair/jrpc2/channel"
-	"bitbucket.org/creachadair/jrpc2/handler"
+	"github.com/creachadair/jrpc2"
+	"github.com/creachadair/jrpc2/channel"
+	"github.com/creachadair/jrpc2/handler"
 	"github.com/hashicorp/hcl2/hcl"
 	"github.com/hashicorp/hcl2/hcl/hclsyntax"
 	"github.com/juliosueiras/nomad-lsp/helper"
 	"github.com/juliosueiras/nomad-lsp/nomadstructs"
 	"github.com/sourcegraph/go-lsp"
-	//"github.com/zclconf/go-cty/cty"
 )
 
 var tempFile *os.File
