@@ -21,7 +21,7 @@ This is LSP(Language Server Protocol) for Nomad
 
 ## Credits
 - LSP structure using [Sourcegraph's go-lsp](https://github.com/sourcegraph/go-lsp)
-- JSONRPC2 using [JRPC2](https://bitbucket.org/creachadair/jrpc2)
+- JSON-RPC 2.0 using [jrpc2](https://github.com/creachadair/jrpc2)
 
 ## License
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjuliosueiras%2Fnomad-lsp?ref=badge_large)
