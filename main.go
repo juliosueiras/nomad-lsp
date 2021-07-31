@@ -14,7 +14,7 @@ import (
 	"github.com/hashicorp/hcl2/hcl/hclsyntax"
 	"github.com/juliosueiras/nomad-lsp/helper"
 	"github.com/juliosueiras/nomad-lsp/nomadstructs"
-	"github.com/sourcegraph/go-lsp"
+	lsp "github.com/sourcegraph/go-lsp"
 )
 
 var tempFile *os.File
@@ -132,7 +132,7 @@ func TextDocumentHover(ctx context.Context, vs lsp.TextDocumentPositionParams) (
 
 func TextDocumentPublishDiagnostics(server *jrpc2.Server, ctx context.Context, vs lsp.PublishDiagnosticsParams) error {
 
-	return server.Push(ctx, "textDocument/publishDiagnostics", vs)
+	return server.Notify(ctx, "textDocument/publishDiagnostics", vs)
 }
 
 func main() {

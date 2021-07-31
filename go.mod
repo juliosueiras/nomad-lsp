@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/agext/levenshtein v1.2.2 // indirect
-	github.com/creachadair/jrpc2 v0.1.2
+	github.com/creachadair/jrpc2 v0.28.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/hashicorp/hcl2 v0.0.0-20190514214226-6a61d80ae3d0
 	github.com/mitchellh/go-wordwrap v1.0.0 // indirect
