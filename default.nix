@@ -9,7 +9,7 @@ buildGoModule rec {
 
   subPackages = [ "." ];
 
-  meta = with stdenv.lib; {
+  meta = with lib; {
     description = "Language Server Protocol for Nomad";
     homepage = https://github.com/juliosueiras/nomad-lsp;
     license = licenses.mit;
